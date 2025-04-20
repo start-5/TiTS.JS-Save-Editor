@@ -166,7 +166,7 @@ export type PlayerCharacter = {
   inseminatorProRefractoryRate: number;
   inseminatorProRefractoryRateOrig: number;
   inseminatorProCumQ: number;
-  // dildo: null; // FIXME
+  dildo: {} | null;
 } & Character;
 
 export type SexualPreferences = {

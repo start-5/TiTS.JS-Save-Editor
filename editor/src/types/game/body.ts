@@ -11,8 +11,8 @@ export type Cock = {
   flaccidMultiplier: number;
   virgin: boolean;
   flags: number[];
-  // piercing: null; // FIXME
-  // cocksock: null; // FIXME
+  piercing: {} | null;
+  cocksock: {} | null;
 } & Serializable;
 
 export type Vagina = {
@@ -29,8 +29,8 @@ export type Vagina = {
   shrinkCounter: number;
   flags: number[];
   fullness: number;
-  // piercing: null; // FIXME
-  // clitPiercing: null; // FIXME
+  piercing: {} | null;
+  clitPiercing: {} | null;
 } & Serializable;
 
 export type BreastRow = {
@@ -42,5 +42,5 @@ export type BreastRow = {
   breastRatingLactationMod: number;
   breastRatingHoneypotMod: number;
   fullness: number;
-  // piercing: null; // FIXME
+  piercing: {} | null;
 } & Serializable;

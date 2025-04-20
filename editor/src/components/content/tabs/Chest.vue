@@ -30,7 +30,7 @@ function addBreastRow(): BreastRow {
     breastRatingLactationMod: 0,
     breastRatingHoneypotMod: 0,
     fullness: 0,
-    // piercing: null, // FIXME
+    piercing: null,
   };
 }
 

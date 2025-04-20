@@ -32,8 +32,8 @@ function addCock(): Cock {
     flaccidMultiplier: 0.25,
     virgin: true,
     flags: [],
-    // piercing: null, // FIXME
-    // cocksock: null, // FIXME
+    piercing: null,
+    cocksock: null,
   };
 }
 
@@ -67,8 +67,8 @@ function addVagina(): Vagina {
     shrinkCounter: 0,
     flags: [],
     fullness: 0,
-    // piercing: null, // FIXME
-    // clitPiercing: null, // FIXME
+    piercing: null,
+    clitPiercing: null,
   };
 }
 
