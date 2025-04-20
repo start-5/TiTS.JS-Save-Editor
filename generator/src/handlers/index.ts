@@ -1,5 +1,6 @@
 export { colorSuggestionsHandler } from '#src/handlers/colorSuggestionsHandler.js';
 export { countsHandler } from '#src/handlers/countsHandler.js';
+export { damageTypesHandler } from '#src/handlers/damageTypesHandler.js';
 export { flagsHandler } from '#src/handlers/flagsHandler.js';
 export { globalsHandler } from '#src/handlers/globalsHandler.js';
 export { hairStylesHandler } from '#src/handlers/hairStylesHandler.js';

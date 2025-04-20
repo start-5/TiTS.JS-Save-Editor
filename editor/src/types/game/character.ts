@@ -49,6 +49,8 @@ export type Character = {
   lustMod: number;
   energyRaw: number;
   energyMod: number;
+  baseHPResistances: DamageTypeCollection;
+  baseShieldResistances: DamageTypeCollection;
   isLustImmune: boolean;
   level: number;
   credits: number;
@@ -180,3 +182,8 @@ export type PregnancyData = {
   pregnancyIncubationMulti: number;
   pregnancyBellyRatingContribution: number;
 } & Serializable;
+
+export type DamageTypeCollection = {
+  values: number[];
+  flags: number[];
+} & Pick<Serializable, 'classInstance'>

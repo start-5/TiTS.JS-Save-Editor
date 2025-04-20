@@ -7226,6 +7226,56 @@
         "value": 5,
         "label": "Slutty"
       }
+    ],
+    "damageTypes": [
+      {
+        "value": 0,
+        "label": "Kinetic"
+      },
+      {
+        "value": 1,
+        "label": "Electric"
+      },
+      {
+        "value": 2,
+        "label": "Burning"
+      },
+      {
+        "value": 3,
+        "label": "Freezing"
+      },
+      {
+        "value": 4,
+        "label": "Corrosive"
+      },
+      {
+        "value": 5,
+        "label": "Poison"
+      },
+      {
+        "value": 6,
+        "label": "True Damage"
+      },
+      {
+        "value": 7,
+        "label": "Psionic"
+      },
+      {
+        "value": 8,
+        "label": "Drug"
+      },
+      {
+        "value": 9,
+        "label": "Pheromone"
+      },
+      {
+        "value": 10,
+        "label": "Tease"
+      },
+      {
+        "value": 11,
+        "label": "True Lust"
+      }
     ]
   },
   "suggestions": {
@@ -12551,7 +12601,7 @@
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "Increases maximum lust by 20.",
+      "tooltip": "Increases maximum lust by 15.",
       "hidden": false,
       "combatOnly": false,
       "iconName": "",
@@ -36846,7 +36896,8 @@
       "nippleTypes": 7,
       "sexPrefs": 33,
       "skinTypes": 10,
-      "upbringings": 6
+      "upbringings": 6,
+      "damageTypes": 12
     },
     "suggestions": {
       "colors": 89

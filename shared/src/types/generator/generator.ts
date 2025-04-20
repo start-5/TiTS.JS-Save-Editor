@@ -16,6 +16,7 @@ export type GeneratorResult = {
     sexPrefs: SelectOptions<number>;
     skinTypes: SelectOptions<number>;
     upbringings: SelectOptions<number>;
+    damageTypes: SelectOptions<number>;
   };
   suggestions: {
     colors: string[];

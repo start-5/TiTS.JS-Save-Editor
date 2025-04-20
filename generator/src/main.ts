@@ -18,6 +18,7 @@ import scrape from '#src/scraper/scraper.js';
 import {
   colorSuggestionsHandler,
   countsHandler,
+  damageTypesHandler,
   flagsHandler,
   globalsHandler,
   hairStylesHandler,
@@ -97,6 +98,7 @@ track('program', async function () {
       sexPrefs: [],
       skinTypes: [],
       upbringings: [],
+      damageTypes: [],
     },
     suggestions: {
       colors: [],
@@ -151,6 +153,8 @@ track('program', async function () {
     keyItemsHandler,
     perksHandler,
     statusEffectsHandler,
+
+    damageTypesHandler,
 
     countsHandler,
   ];

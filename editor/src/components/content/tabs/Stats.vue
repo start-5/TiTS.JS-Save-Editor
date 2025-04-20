@@ -5,6 +5,8 @@ import Group from '@/components/content/Group.vue';
 import NestedGroup from '@/components/content/NestedGroup.vue';
 import Tab from '@/components/content/Tab.vue';
 
+import DamageTypeCollection from '@/components/forms/game/DamageTypeCollection.vue';
+
 import Number from '@/components/forms/Number.vue';
 </script>
 
@@ -71,6 +73,14 @@ import Number from '@/components/forms/Number.vue';
         <Number v-model="game.character.pregnancyIncubationBonusFatherRaw" label="Incubation (Father)" :min="0" :step="1" />
         <Number v-model="game.character.pregnancyIncubationBonusFatherMod" label="Incubation (Father) Modifier" :min="0" :step="1" />
       </NestedGroup>
+    </Group>
+
+    <Group label="Hit Point Resistances">
+      <DamageTypeCollection :collection="game.character.baseHPResistances" />
+    </Group>
+
+    <Group label="Shield Resistances">
+      <DamageTypeCollection :collection="game.character.baseShieldResistances" />
     </Group>
   </Tab>
 </template>
