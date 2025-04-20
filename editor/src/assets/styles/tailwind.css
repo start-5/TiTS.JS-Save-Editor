@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-game-text: #FFF;
+
+    --color-game-background: #3D5174;
+    --color-game-background-light: #647490;
+    --color-game-foreground-a: #333E52;
+    --color-game-foreground-b: #2C3649;
+    --color-game-highlight: #8D31B0;
+    --color-game-pale: #53677B;
+    --color-game-focus: #00F5EF;
+    --color-game-pale-focus: #64889D;
+    --color-game-holo-light: #A6C6FF;
+    --color-game-shadow: #202735;
+    
+    --color-game-hyperlink: #D982EF;
+    --color-game-active-hyperlink: #A1376F;
+
+    --color-game-positive: #0CD71C;
+    --color-game-negative: #FF0000;
+    --color-game-caution: #E8C815;
+    --color-game-passive: #D982EF;
+    --color-game-low-priority: #B793C4;
+    --color-game-debug: #FFA90A;
+
+    --color-game-shield-damage: #00CCFF;
+    --color-game-shield-heal: #CAF3FF;
+
+    --color-game-hp-damage: #00CC2F;
+    --color-game-hp-heal: #00FF16;
+
+    --color-game-lust-damage: #FF00F0;
+    --color-game-lust-heal: #FFADC4;
+
+    --color-game-energy-damage: #FFD207;
+    --color-game-energy-heal: #FFF3BE;
+
+    --color-game-panic-bg: #000000;
+    --color-game-panic-text: #FFFFFF;
+
+    --color-game-grayscale-bg: #3A3A3A;
+
+
+    --font-lato: Lato, serif;
+}

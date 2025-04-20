@@ -1,0 +1,26 @@
+{
+  "name": "tits.js-save-editor-generator",
+  "author": "start-5",
+  "version": "2.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "acorn": "^8.14.1",
+    "acorn-walk": "^8.3.4",
+    "puppeteer": "^24.4.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.13.4",
+    "typescript": "~5.7.3"
+  },
+  "imports": {
+    "#src/*": "./out/generator/src/*",
+    "#shared/*": "./out/shared/src/*"
+  }
+}

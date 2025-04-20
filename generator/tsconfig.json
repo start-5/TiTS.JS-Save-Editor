@@ -1,0 +1,23 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "out",
+    "sourceMap": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "#src/*": [
+        "./src/*"
+      ],
+      "#shared/*": [
+        "../shared/src/*"
+      ]
+    }
+  }
+}
