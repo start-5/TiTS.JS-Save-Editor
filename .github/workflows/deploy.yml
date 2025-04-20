@@ -36,7 +36,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: npm run build-only
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
