@@ -214,8 +214,6 @@ export const validBodyPartFlagsHandler: Handler = function (data, result) {
               return;
             }
 
-            key;
-
             part.flags.add(flag);
           });
         });
