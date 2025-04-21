@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { watch } from 'vue';
 
+import data from '@/stores/data';
 import { safe as game, isPc } from '@/stores/game';
 
 import Group from '@/components/content/Group.vue';
 import Tab from '@/components/content/Tab.vue';
 
 import Number from '@/components/forms/Number.vue';
+import Select from '@/components/forms/Select.vue';
 import String from '@/components/forms/String.vue';
 
 watch(
@@ -42,6 +44,8 @@ watch(
   <Tab>
     <Group label="General">
       <String v-model="game.character.short" label="Name" />
+      <Select v-model="game.character.characterClass" :options="data.options.classes" label="Class" />
+      <Select v-model="game.state.flags.PC_UPBRINGING" :options="data.options.upbringings" label="Upbringing" />
       <Number v-model="game.character.credits" label="Credits" :min="0" :step="1000" />
       <Number v-model="game.character.personality" label="Personality" :min="0" :max="100" :step="5" />
       <Number v-model="game.character.exhibitionismRaw" label="Exhibitionism" :min="0" :max="100" :step="5" />
