@@ -26,7 +26,7 @@ type ShiftableBodyPartItem = {
   callVariants: string[];
 };
 
-export const validBodyPartTypesHandler: Handler = function (data, result) {
+export const ValidBodyPartTypes: Handler = function (data, result) {
   function generateShiftableCallVariants(part: string): string[] {
     return [
       `shift${part}`,

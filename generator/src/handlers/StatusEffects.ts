@@ -20,7 +20,7 @@ import {
   ICON_SHADE_DEFAULT
 } from '#src/utils/storage.js';
 
-export const statusEffectsHandler: Handler = function (data, result) {
+export const StatusEffects: Handler = function (data, result) {
   const statusEffects: StorageItem[] = [];
 
   const callVariants = [

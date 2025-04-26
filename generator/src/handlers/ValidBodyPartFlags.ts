@@ -24,7 +24,7 @@ type ArrayLikeBodyPartItem = {
   name: string;
 };
 
-export const validBodyPartFlagsHandler: Handler = function (data, result) {
+export const ValidBodyPartFlags: Handler = function (data, result) {
   function generateAssignmentVariants(part: string): string[] {
     return [
       `${part}Flags`,

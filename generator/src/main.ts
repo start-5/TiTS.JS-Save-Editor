@@ -16,18 +16,18 @@ import { parse } from 'acorn';
 import scrape from '#src/scraper/scraper.js';
 
 import {
-  colorSuggestionsHandler,
-  countsHandler,
-  damageTypesHandler,
-  flagsHandler,
-  globalsHandler,
-  hairStylesHandler,
-  keyItemsHandler,
-  perksHandler,
-  statusEffectsHandler,
-  validBodyPartFlagsHandler,
-  validBodyPartTypesHandler,
-  versionHandler,
+  ColorSuggestions,
+  Counts,
+  DamageTypes,
+  Flags,
+  Globals,
+  HairStyles,
+  KeyItems,
+  Perks,
+  StatusEffects,
+  ValidBodyPartFlags,
+  ValidBodyPartTypes,
+  Version,
 } from '#src/handlers/index.js';
 
 track('program', async function () {
@@ -143,29 +143,29 @@ track('program', async function () {
   };
 
   const handlers = [
-    versionHandler,
-    globalsHandler,
+    Version,
+    Globals,
 
-    flagsHandler,
+    Flags,
 
-    colorSuggestionsHandler,
+    ColorSuggestions,
 
-    hairStylesHandler,
+    HairStyles,
 
-    validBodyPartFlagsHandler,
-    validBodyPartTypesHandler,
+    ValidBodyPartFlags,
+    ValidBodyPartTypes,
 
-    keyItemsHandler,
-    perksHandler,
-    statusEffectsHandler,
+    KeyItems,
+    Perks,
+    StatusEffects,
 
-    damageTypesHandler,
+    DamageTypes,
 
-    countsHandler,
+    Counts,
   ];
 
   handlers.forEach(function (handler) {
-    track(handler.name, function () {
+    track(`${handler.name} handler`, function () {
       handler(data!, result);
     });
   });

@@ -3,7 +3,7 @@ import { Handler } from '#src/types/handler.js';
 import { log } from '#src/utils/log.js';
 import { string } from '#src/utils/sort.js';
 
-export const colorSuggestionsHandler: Handler = function (data, result) {
+export const ColorSuggestions: Handler = function (data, result) {
   const colorData = data.colorData;
   const globalsColorData = data.globals.SKIN_COLORS as Record<string, [string, string][]>;
 

@@ -6,7 +6,7 @@ import { titleCase } from '#src/utils/string.js';
 
 type NameMap = Record<string, string | undefined>;
 
-export const globalsHandler: Handler = function (data, result) {
+export const Globals: Handler = function (data, result) {
   const globals = data.globals;
 
   function isNameMap(value: any): value is NameMap {

@@ -21,7 +21,7 @@ import {
   processStorageItemsResult
 } from '#src/utils/storage.js';
 
-export const perksHandler: Handler = function (data, result) {
+export const Perks: Handler = function (data, result) {
   const perks: StorageItem[] = [];
 
   const callVariants = [

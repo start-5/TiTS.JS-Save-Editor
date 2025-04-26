@@ -16,7 +16,7 @@ import {
 import { log } from '#src/utils/log.js';
 import { titleCase } from '#src/utils/string.js';
 
-export const hairStylesHandler: Handler = function (data, result) {
+export const HairStyles: Handler = function (data, result) {
   const content = data.content.get('main');
 
   if (content === undefined) {

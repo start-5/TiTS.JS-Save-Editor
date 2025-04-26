@@ -11,7 +11,7 @@ import {
 } from '#src/utils/ast.js';
 import { log } from '#src/utils/log.js';
 
-export const damageTypesHandler: Handler = function (data, result) {
+export const DamageTypes: Handler = function (data, result) {
   const content = data.content.get('main');
 
   if (content === undefined) {

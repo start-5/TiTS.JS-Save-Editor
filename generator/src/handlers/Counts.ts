@@ -2,7 +2,7 @@ import { Handler } from '#src/types/handler.js';
 
 import { log } from '#src/utils/log.js';
 
-export const countsHandler: Handler = function (data, result) {
+export const Counts: Handler = function (data, result) {
   function generateCounts(value: any): any {
     if (Array.isArray(value)) {
       return value.length;

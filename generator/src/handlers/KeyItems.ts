@@ -16,7 +16,7 @@ import {
   processStorageItemsResult,
 } from '#src/utils/storage.js';
 
-export const keyItemsHandler: Handler = function (data, result) {
+export const KeyItems: Handler = function (data, result) {
   const keyItems: StorageItem[] = [];
 
   const callVariants = [
