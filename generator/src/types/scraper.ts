@@ -23,6 +23,7 @@ export type EvalResultRaw = {
   serializedColorData: string;
   serializedPantyData: string;
   version: string;
+  build: string;
 };
 
 export type EvalResult = {

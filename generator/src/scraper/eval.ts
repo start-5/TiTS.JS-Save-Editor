@@ -29,6 +29,8 @@ export function evalFunction({ }: EvalFunctionProps): EvalResultRaw {
 
   window.flags = {};
 
+  const state = new (window.Serialization.getClassByName('GameState'));
+
   debugger;
 
   return {
@@ -36,5 +38,6 @@ export function evalFunction({ }: EvalFunctionProps): EvalResultRaw {
     serializedColorData: __inject__serialize__(window.ColorData),
     serializedPantyData: __inject__serialize__(window.PantyData),
     version: window.version,
+    build: state.gameBuild,
   };
 };

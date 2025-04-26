@@ -17,8 +17,6 @@ export const countsHandler: Handler = function (data, result) {
 
       return result;
     }
-
-    return 0;
   }
 
   // @ts-expect-error

@@ -27,6 +27,7 @@ import {
   statusEffectsHandler,
   validBodyPartFlagsHandler,
   validBodyPartTypesHandler,
+  versionHandler,
 } from '#src/handlers/index.js';
 
 track('program', async function () {
@@ -50,6 +51,7 @@ track('program', async function () {
         colorData: deserialize(localScraperResult.colorData),
         pantyData: deserialize(localScraperResult.pantyData),
         version: localScraperResult.version,
+        build: localScraperResult.build,
       };
 
       const localContentFilePaths = await readdir(localPath('content'));
@@ -136,9 +138,12 @@ track('program', async function () {
     keyItems: [],
     perks: [],
     statusEffects: [],
+    version: '',
+    build: '',
   };
 
   const handlers = [
+    versionHandler,
     globalsHandler,
 
     flagsHandler,

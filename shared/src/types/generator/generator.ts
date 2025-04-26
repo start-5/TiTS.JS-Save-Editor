@@ -54,6 +54,8 @@ export type GeneratorResult = {
   keyItems: StorageItem[];
   perks: StorageItem[];
   statusEffects: StorageItem[];
+  version: string;
+  build: string;
 };
 
 export type ValidBodyPartFlagsKey = keyof GeneratorResult['valid']['bodyPartFlags'];

@@ -73,6 +73,7 @@ export default async function (): Promise<ScraperResult> {
       colorData: deserialize(evalResultRaw.serializedColorData),
       pantyData: deserialize(evalResultRaw.serializedPantyData),
       version: evalResultRaw.version,
+      build: evalResultRaw.build,
     };
 
     const content: ContentMap = new Map();

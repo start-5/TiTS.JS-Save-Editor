@@ -9,3 +9,4 @@ export { perksHandler } from '#src/handlers/perksHandler.js';
 export { statusEffectsHandler } from '#src/handlers/statusEffectsHandler.js';
 export { validBodyPartFlagsHandler } from '#src/handlers/validBodyPartFlagsHandler.js';
 export { validBodyPartTypesHandler } from '#src/handlers/validBodyPartTypesHandler.js';
+export { versionHandler } from '#src/handlers/versionHandler.js';
