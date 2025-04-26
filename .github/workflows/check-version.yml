@@ -28,9 +28,9 @@ jobs:
         run: npm run build
 
       - name: Check game version
-        id: check
+        id: check-version
         run: node out/generator/src/version
         continue-on-error: true
 
       - name: Set output
-        run: echo "new-version=${{ steps.check.outcome == 'success' && '1' || '0' }}" >> "$GITHUB_OUTPUT"
+        run: echo "new-version=${{ steps.check-version.outcome == 'success' && '1' || '0' }}" >> "$GITHUB_OUTPUT"
