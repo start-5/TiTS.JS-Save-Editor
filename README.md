@@ -1,3 +1,6 @@
+![Supported Game Version](https://img.shields.io/badge/%20supported%20game%20version-%23555555?style=for-the-badge)![$.version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstart-5%2Ftits.js-save-editor%2Frefs%2Fheads%2Fmain%2Feditor%2Fsrc%2Fdata.json&query=%24.version&style=for-the-badge&label=%20&color=%238D31B0)![$.build](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fstart-5%2Ftits.js-save-editor%2Frefs%2Fheads%2Fmain%2Feditor%2Fsrc%2Fdata.json&query=%24.build&prefix=%23&style=for-the-badge&label=%20&color=%238D31B0)
+
+
 # Trials in Tainted Space Save Editor
 A Save Editor for the JavaScript version of TiTS.
 View and edit your save files.
