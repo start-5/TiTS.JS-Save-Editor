@@ -3637,6 +3637,12 @@
     "NT_FOOTBALL_TS",
     "NT_TAILCOCK_MILKINGS",
     "NUKA_PSYKER_ENCOUNTER",
+    "NUKA_RAIDER_BAD_END",
+    "NUKA_RAIDER_DEFEAT",
+    "NUKA_RAIDER_FUCKED",
+    "NUKA_RAIDER_MET",
+    "NUKA_RAIDER_RIDE",
+    "NUKA_RAIDER_VICTORY",
     "NUKA_RANCHER_DRINK_TEA",
     "NUKA_RANCHER_ENCOUNTER",
     "NUKA_RANCHER_INFLATION_TS",
@@ -12601,7 +12607,7 @@
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "Increases maximum lust by 15.",
+      "tooltip": "Increases maximum lust by 20.",
       "hidden": false,
       "combatOnly": false,
       "iconName": "",
@@ -15061,6 +15067,22 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
+      "storageName": "Adrenaline Rush",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "The raider’s natural haste gives her two actions per turn while she has energy remaining.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "offense_up",
+      "iconShade": "var(--positiveColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
       "storageName": "Afraid of Ula Pussy",
       "value1": 0,
       "value2": 0,
@@ -15392,6 +15414,22 @@
       "combatOnly": false,
       "iconName": "",
       "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Amplifying Poison",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 2,
+      "tooltip": "The raider’s engorged features make her psionic lust much more dangerous!",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "drug-vial",
+      "iconShade": "var(--positiveColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -18031,6 +18069,22 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Constrict",
+      "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Cold Blood Cooldown",
+      "value1": 4,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "",
       "iconShade": "var(--textColor)"
     },
     {
@@ -24080,6 +24134,22 @@
       "combatOnly": false,
       "iconName": "",
       "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Inventory Lock",
+      "value1": 3,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "The numbing poison has robbed your body of normal sensations and coordination, making it too hard to sort through your inventory or put on a lewd show.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "poison",
+      "iconShade": "var(--negativeColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -31317,6 +31387,22 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
+      "storageName": "Savicite Toxin",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "Icon_Poison",
+      "iconShade": "var(--negativeColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
       "storageName": "Sealed-In",
       "value1": 0,
       "value2": 0,
@@ -31952,6 +32038,22 @@
       "combatOnly": false,
       "iconName": "OffenseUp",
       "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Shadowstep",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 2,
+      "tooltip": "The half-real Nuka Raider is resistant to all attacks and immune to all conditions!",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "glasses",
+      "iconShade": "var(--positiveColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -33190,15 +33292,15 @@
       "neverSerialize": false,
       "version": 1,
       "storageName": "Special Lock",
-      "value1": 5,
+      "value1": 4,
       "value2": 0,
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "You can’t remember how to use your special abilities!",
+      "tooltip": "The crippling poison has drained you of the vigor you need to do anything more complicated than swing a weapon or pull a trigger.",
       "hidden": false,
       "combatOnly": false,
-      "iconName": "Icon_Confused",
+      "iconName": "poison",
       "iconShade": "var(--negativeColor)"
     },
     {
@@ -34352,6 +34454,22 @@
       "combatOnly": false,
       "iconName": "",
       "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "Tease Lock",
+      "value1": 3,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "The numbing poison has robbed your body of normal sensations and coordination, making it too hard to sort through your inventory or put on a lewd show.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "poison",
+      "iconShade": "var(--negativeColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -35957,6 +36075,22 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
+      "storageName": "Vanish",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 0,
+      "tooltip": "The shield generator has made the raider nearly inperceptible, leaving you swinging blindly.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "map_hazard",
+      "iconShade": "var(--positiveColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
       "storageName": "Varmint Buddy",
       "value1": 0,
       "value2": 0,
@@ -36883,7 +37017,7 @@
     }
   ],
   "counts": {
-    "flags": 5993,
+    "flags": 5999,
     "options": {
       "beardStyles": 12,
       "bodyPartFlags": 58,
@@ -36934,6 +37068,6 @@
     },
     "keyItems": 151,
     "perks": 274,
-    "statusEffects": 1374
+    "statusEffects": 1382
   }
 }
