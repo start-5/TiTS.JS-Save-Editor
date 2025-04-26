@@ -139,7 +139,7 @@ track('program', async function () {
     perks: [],
     statusEffects: [],
     version: '',
-    build: '',
+    build: 0,
   };
 
   const handlers = [
