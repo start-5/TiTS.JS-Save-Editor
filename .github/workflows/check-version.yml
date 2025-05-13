@@ -7,6 +7,8 @@ on:
 jobs:
   check-version:
     runs-on: ubuntu-latest
+    outputs:
+      new-version: ${{ steps.set-output.outputs.new-version }}
     defaults:
       run:
         working-directory: ./generator
@@ -33,4 +35,5 @@ jobs:
         continue-on-error: true
 
       - name: Set output
+        id: set-output
         run: echo "new-version=${{ steps.check-version.outcome == 'success' && '1' || '0' }}" >> "$GITHUB_OUTPUT"
