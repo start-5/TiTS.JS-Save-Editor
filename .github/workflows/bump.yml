@@ -20,7 +20,7 @@ jobs:
   bump:
     runs-on: ubuntu-latest
     needs: [check-version]
-    if: needs.check-version.outputs.new-version == 1
+    if: ${{ needs.check-version.outputs.new-version == '1' }}
     defaults:
       run:
         working-directory: ./generator
