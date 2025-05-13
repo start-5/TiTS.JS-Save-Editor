@@ -44,8 +44,9 @@ jobs:
         - name: Create pull request
           uses: peter-evans/create-pull-request@v7
           with:
-            author: start-5 <start-5@users.noreply.github.com>
-            committer: start-5 <start-5@users.noreply.github.com>
+            author: start-5 <103078176+start-5@users.noreply.github.com>
+            committer: start-5 <103078176+start-5@users.noreply.github.com>
             branch: bump
             title: '[Automated] Bump'
+            body: '[Automated] Bump'
             commit-message: '[Automated] Bump'
