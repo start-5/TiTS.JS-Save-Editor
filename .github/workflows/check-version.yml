@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       new-version: ${{ steps.set-output.outputs.new-version }}
-    # defaults:
-    #   run:
-    #     working-directory: ./generator
     steps:
       - name: Checkout
         uses: actions/checkout@v4
