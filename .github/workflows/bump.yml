@@ -40,6 +40,11 @@ jobs:
   
         - name: Run generator
           run: node ./generator/out/generator/src/main
+
+        - name: Git config
+          run: |
+            git config user.name start-5
+            git config user.email start-5@users.noreply.github.com
   
         - name: Create pull request
           uses: peter-evans/create-pull-request@v7
