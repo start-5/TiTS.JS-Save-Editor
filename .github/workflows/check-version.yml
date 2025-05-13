@@ -2,6 +2,9 @@ name: Check game version
 
 on:
   workflow_call:
+    outputs:
+      new-version:
+        value: ${{ jobs.check-version.outputs.new-version }}
   workflow_dispatch:
 
 jobs:
