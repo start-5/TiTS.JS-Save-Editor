@@ -29,8 +29,8 @@ jobs:
           run: |
             echo "new-version=${{ needs.check-version.outputs.new-version }}"
           
-      # - name: Checkout
-      #   uses: actions/checkout@v4
+        - name: Checkout
+          uses: actions/checkout@v4
 
       # - name: Set up Node
       #   uses: actions/setup-node@v4
