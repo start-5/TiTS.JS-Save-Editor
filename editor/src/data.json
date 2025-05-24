@@ -215,7 +215,6 @@
     "ANNOxKAEDE_INTRODUCED",
     "ANNOxKAEDE_LAST_DAY",
     "ANNOxSYRI_EVENT",
-    "ANNOxSYRI_WINCEST",
     "ANT_ORGY_COUNT",
     "ANT_ORGY_TIME",
     "ANT_PANTIES_SHARED",
@@ -2599,6 +2598,7 @@
     "KIRO_BIMB_ALLCREW_FORCE",
     "KIRO_BIMBO_ANNO_MAKEUP_WALKIES",
     "KIRO_BIMBO_ANNO_TRIANGLE_THREESOME",
+    "KIRO_BIMBO_BEEJERS",
     "KIRO_BIMBO_BUBBLE_BUDDY",
     "KIRO_BIMBO_BUBBLES_STOCKED",
     "KIRO_BIMBO_CHOKED",
@@ -3538,6 +3538,7 @@
     "NARC_DRIVERS",
     "NARC_EXPERIMENTAL_SMUT_VIEWED",
     "NARC_EYE_FIXED",
+    "NARC_FUCKED_PLAIN_PUSS",
     "NARC_GIVEN_UNIT",
     "NARC_GOBBO_FIGHTS",
     "NARC_GROW_A_DICK",
@@ -15061,7 +15062,7 @@
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "The raider’s natural haste gives her two actions per turn while she has energy remaining.",
+      "tooltip": "The raider’s natural haste allows her two attacks per turn while she has the energy for it.",
       "hidden": false,
       "combatOnly": false,
       "iconName": "offense_up",
@@ -16281,7 +16282,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Charmed",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -18080,7 +18081,7 @@
       "neverSerialize": false,
       "version": 1,
       "storageName": "Cold Blood Cooldown",
-      "value1": 4,
+      "value1": 5,
       "value2": 0,
       "value3": 0,
       "value4": 0,
@@ -20089,7 +20090,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Charmed",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -20105,7 +20106,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Charmed",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -20121,7 +20122,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Charmed",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -20137,7 +20138,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_LustDown",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -24224,16 +24225,16 @@
       "neverSerialize": false,
       "version": 1,
       "storageName": "Inventory Lock",
-      "value1": 3,
+      "value1": 0,
       "value2": 0,
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "The numbing poison has robbed your body of normal sensations and coordination, making it too hard to sort through your inventory or put on a lewd show.",
+      "tooltip": "",
       "hidden": false,
       "combatOnly": false,
-      "iconName": "poison",
-      "iconShade": "var(--negativeColor)"
+      "iconName": "",
+      "iconShade": "var(--textColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -25577,7 +25578,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "perfume",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -29209,7 +29210,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_LustUp",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -29241,7 +29242,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_LustUp",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -29689,7 +29690,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Sperm_Hearts",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -29705,7 +29706,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Sperm_Hearts",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -33477,7 +33478,7 @@
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "The crippling poison has drained you of the vigor you need to do anything more complicated than swing a weapon or pull a trigger.",
+      "tooltip": "You can’t remember how to use your special abilities!",
       "hidden": false,
       "combatOnly": false,
       "iconName": "poison",
@@ -34640,16 +34641,16 @@
       "neverSerialize": false,
       "version": 1,
       "storageName": "Tease Lock",
-      "value1": 3,
+      "value1": 0,
       "value2": 0,
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "The numbing poison has robbed your body of normal sensations and coordination, making it too hard to sort through your inventory or put on a lewd show.",
+      "tooltip": "",
       "hidden": false,
       "combatOnly": false,
-      "iconName": "poison",
-      "iconShade": "var(--negativeColor)"
+      "iconName": "",
+      "iconShade": "var(--textColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -35705,7 +35706,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Boob_Torso",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -35721,7 +35722,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -35737,7 +35738,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "LustUp",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -35753,7 +35754,7 @@
       "hidden": false,
       "combatOnly": false,
       "iconName": "Icon_Boob_Torso",
-      "iconShade": "var(--passiveColor)"
+      "iconShade": "var(--hornyColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -37196,10 +37197,10 @@
       "iconShade": "var(--lowPriorityColor)"
     }
   ],
-  "version": "0.9.130",
-  "build": 6099,
+  "version": "0.9.131",
+  "build": 6135,
   "counts": {
-    "flags": 6003,
+    "flags": 6004,
     "options": {
       "beardStyles": 12,
       "bodyPartFlags": 58,
