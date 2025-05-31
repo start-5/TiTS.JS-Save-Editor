@@ -4140,6 +4140,7 @@
     "RAMIS_WORKOUT_SEX_DISABLED",
     "RANDY_CLAWS",
     "RANDY_CLAWS_EMAIL_THIS_YEAR",
+    "RAOH_CHAIN_SURRENDER",
     "RAOH_DHAAL",
     "RAOH_FUCKED",
     "RAOH_SURRENDER",
@@ -12724,7 +12725,7 @@
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
-      "tooltip": "Allows you to easily and freely leap to your feet after being knocked prone.",
+      "tooltip": "Allows you to automatically stand up as part of any other combat action (except 'Wait').",
       "hidden": false,
       "combatOnly": false,
       "iconName": "",
@@ -20576,6 +20577,22 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
+      "storageName": "Energizing Emerald Worn",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 2880,
+      "tooltip": "You’re wearing[pc.isBimbo| a lot of] vibrant green lipstick on your lips. It increases the accuracy of your teases by 10% and boosts your Sexiness by 1.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "lips_glossed",
+      "iconShade": "var(--positiveColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
       "storageName": "Energy Enervation",
       "value1": 0,
       "value2": 0,
@@ -21243,6 +21260,22 @@
       "combatOnly": false,
       "iconName": "",
       "iconShade": "var(--textColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
+      "storageName": "First Aid Fuchsia Worn",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 2880,
+      "tooltip": "You’re wearing[pc.isBimbo| a lot of] vivid pink lipstick on your lips. It increases the accuracy of your teases by 10% and boosts your Sexiness by 1.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "lips_glossed",
+      "iconShade": "var(--positiveColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -26089,8 +26122,8 @@
       "tooltip": "",
       "hidden": false,
       "combatOnly": false,
-      "iconName": "",
-      "iconShade": "var(--textColor)"
+      "iconName": "lust-up",
+      "iconShade": "var(--negativeColor)"
     },
     {
       "classInstance": "StorageClass",
@@ -31808,6 +31841,22 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
+      "storageName": "Semen Demon Worn",
+      "value1": 0,
+      "value2": 0,
+      "value3": 0,
+      "value4": 0,
+      "minutesLeft": 2880,
+      "tooltip": "You’re wearing[pc.isBimbo| a lot of] purple lipstick on your lips. It increases the accuracy of your teases by 10% and boosts your Sexiness by 1.",
+      "hidden": false,
+      "combatOnly": false,
+      "iconName": "lips_glossed",
+      "iconShade": "var(--positiveColor)"
+    },
+    {
+      "classInstance": "StorageClass",
+      "neverSerialize": false,
+      "version": 1,
       "storageName": "Semen's Candy",
       "value1": 300,
       "value2": 1,
@@ -34704,22 +34753,6 @@
       "classInstance": "StorageClass",
       "neverSerialize": false,
       "version": 1,
-      "storageName": "Tease Weakness",
-      "value1": 0,
-      "value2": 0,
-      "value3": 0,
-      "value4": 0,
-      "minutesLeft": 0,
-      "tooltip": "",
-      "hidden": false,
-      "combatOnly": false,
-      "iconName": "",
-      "iconShade": "var(--textColor)"
-    },
-    {
-      "classInstance": "StorageClass",
-      "neverSerialize": false,
-      "version": 1,
       "storageName": "Tech Shield CD",
       "value1": 0,
       "value2": 0,
@@ -35203,22 +35236,6 @@
       "storageName": "Tolerance",
       "value1": 0,
       "value2": 0,
-      "value3": 0,
-      "value4": 0,
-      "minutesLeft": 0,
-      "tooltip": "",
-      "hidden": false,
-      "combatOnly": false,
-      "iconName": "",
-      "iconShade": "var(--textColor)"
-    },
-    {
-      "classInstance": "StorageClass",
-      "neverSerialize": false,
-      "version": 1,
-      "storageName": "Torra Lust Weakness",
-      "value1": 5,
-      "value2": 20,
       "value3": 0,
       "value4": 0,
       "minutesLeft": 0,
@@ -37197,10 +37214,10 @@
       "iconShade": "var(--lowPriorityColor)"
     }
   ],
-  "version": "0.9.131",
-  "build": 6140,
+  "version": "0.9.132",
+  "build": 6161,
   "counts": {
-    "flags": 6004,
+    "flags": 6005,
     "options": {
       "beardStyles": 12,
       "bodyPartFlags": 58,
@@ -37251,6 +37268,6 @@
     },
     "keyItems": 150,
     "perks": 274,
-    "statusEffects": 1394
+    "statusEffects": 1395
   }
 }
