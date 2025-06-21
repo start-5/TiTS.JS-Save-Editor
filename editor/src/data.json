@@ -2039,6 +2039,7 @@
     "GIANNA_TAUR_SERVICE_P",
     "GIANNA_TAUR_SERVICE_V",
     "GIANNA_TEMP",
+    "GIANNA_TIMES_BLOWN_HER",
     "GIANNA_TITFUCKS",
     "GIANNA_X_ANNO_3SUM",
     "GIGACELISE",
@@ -15410,7 +15411,7 @@
       "neverSerialize": false,
       "version": 1,
       "storageName": "Amplifying Poison",
-      "value1": 0,
+      "value1": 2,
       "value2": 0,
       "value3": 0,
       "value4": 0,
@@ -32258,7 +32259,7 @@
       "neverSerialize": false,
       "version": 1,
       "storageName": "Shadowstep",
-      "value1": 0,
+      "value1": 2,
       "value2": 0,
       "value3": 0,
       "value4": 0,
@@ -37214,10 +37215,10 @@
       "iconShade": "var(--lowPriorityColor)"
     }
   ],
-  "version": "0.9.132",
-  "build": 6161,
+  "version": "0.9.133",
+  "build": 6188,
   "counts": {
-    "flags": 6005,
+    "flags": 6006,
     "options": {
       "beardStyles": 12,
       "bodyPartFlags": 58,
